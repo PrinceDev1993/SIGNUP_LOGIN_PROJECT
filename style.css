@@ -1,0 +1,508 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+    padding: 0px 30px;
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10; */
+}
+
+.navbar a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.navbar a.navbar-brand {
+    float: left;
+    height: inherit;
+    line-height: inherit;
+    padding: 0px 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.navbar a.navbar-brand span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navbar ul {
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0px 50px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    display: block;
+    text-align: center;
+    padding: 0px 30px;
+    min-width: 120px;
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar .navbar-toggler {
+    display: none;
+
+} 
+
+
+.pr {
+    position: relative;
+    height: 150vh;
+}
+
+.index_body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 79.6vh;
+    padding: 0px 2%;
+}
+
+.index_body h1 {
+    font-size: 60px;
+}
+
+.index_body p {
+    font-size: 18px;
+}
+
+.index_body p, .index_body h1 {
+    text-align: center;
+    max-width: 700px;
+}
+
+/* SIGN UP */
+.center-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 79.6vh;
+    align-items: center;
+    padding: 0px 1%;
+}
+
+.signup_centered {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7.2%;
+}
+
+.signup-form {
+    padding: 50px 0px;
+   
+}
+
+.signup-form h1 {
+    text-align: center;
+}
+
+.signup-form form div {
+    margin-top: 10px;
+}
+
+.signup-form form div input {
+    font-size: 18px;
+    padding: 5px;
+    width: 500px;
+}
+
+.signup_btn {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.signup_btn button {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.php_message {
+    font-size: 20px;
+    color: #005385;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 79.5vh;
+    align-items: center;
+    padding: 0px 1%;
+}
+
+.form_container form {
+    display: table;
+    padding: 20px 50px;
+    border-radius: 7px;
+    border: 1px solid blue;
+}
+
+.form_container form div {
+    display: table-row;
+   
+}
+
+.form_container form div input {
+    display: table-cell;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+}
+
+.form_container form div textarea {
+    display: table-cell;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+}
+
+.form_container form div label {
+    display: table-cell;
+    font-size: 18px;
+   
+}
+
+.sub_btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    outline: none;
+}
+
+.sub_btn button {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 36%;
+    margin-top: 20px;
+}
+
+.sub_btn p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.red {
+    background-color: rgb(240, 46, 46);
+    padding: 2% 2%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.green {
+    background-color: rgb(17, 139, 6);
+    padding: 2% 2%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+
+
+.phpEcho {
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+/* FOOTER */
+
+.main-footer {
+    background-color: #005385;
+    padding: 10px 30px;
+    /* margin-top: 100px; */
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-text {
+    color: white;
+    font-weight: normal;
+
+}
+
+
+.footer-nav li{
+    padding: 0;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer-nav img {
+    width: 30px;
+}
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .navbar ul {
+        padding: 0px 10px;
+    }
+
+    .navbar ul li {
+        min-width: 100px;
+        padding: 0px 20px;
+    }
+
+}
+
+
+@media (max-width: 848px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar ul {
+        width: 100%;
+        padding: 0px;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* height: 100vh; */
+        height: auto;
+        max-height: 0;
+        overflow: hidden;
+        transition: all ease-in-out 0.3s;
+    }
+
+    .navbar ul.open {
+        max-height: 100vh;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        /* border-bottom: rgba(255, 255, 255, 0.3); */
+    }
+
+    .navbar ul li a {
+        padding: 0px;
+    }
+
+    .navbar .navbar-toggler {
+        display: block;
+        position: absolute;
+        height: 40px;
+        right: 20px;
+        top: 20px;
+        color: #fff;
+        background-color: transparent;
+        /* border: 3px solid #fff; */
+        border: none;
+        outline: none;
+        padding: 0px 5px;
+        cursor: pointer;
+    }
+ 
+    .navbar .navbar-toggler span,
+    .navbar .navbar-toggler span::before,
+    .navbar .navbar-toggler span::after {
+        display: block;
+        content: "";
+        background-color: #fff;
+        height: 3px;
+        width: 28px;
+        border-radius: 4px;
+        transition: all ease-in-out 0.3s;
+    }
+
+    .navbar .navbar-toggler span::before {
+        transform: translateY(-8px);
+    }
+
+    .navbar .navbar-toggler span::after {
+        transform: translateY(5px);
+    }
+
+    .navbar .navbar-toggler.open-navbar-toggler span {
+        /* transform: rotate(90deg); */
+        background-color: transparent;
+    }
+
+    .navbar .navbar-toggler.open-navbar-toggler span::before {
+        transform: translateY(0px) rotate(45deg);
+    }
+
+    .navbar .navbar-toggler.open-navbar-toggler span::after {
+        transform: translateY(-3px) rotate(-45deg);
+    }
+
+
+}
+
+@media (max-width: 650px) {
+    
+    .form_container form div textarea, .form_container form div input {
+        display: table-cell;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 12px;
+        padding: 10px;
+        outline: none;
+    }
+    
+    .form_container form div label {
+        display: table-cell;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .main-footer-container { 
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .signup-form form div input {
+        font-size: 14px;
+        padding: 5px;
+        width: 250px;
+    }
+
+    .index_body h1 {
+        font-size: 35px;
+    }
+
+    .index_body p {
+        font-size: 15px;
+    }
+
+    .index_body p, .index_body h1 {
+        text-align: center;
+        max-width: 700px;
+        padding: 2%;
+    }
+}
+
+@media (max-width: 400px) {
+    
+    .form_container form div textarea, .form_container form div input {
+        display: table-cell;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 12px;
+        padding: 10px;
+        outline: none;
+        width: 140px;
+    }
+    
+    .form_container form div label {
+        display: table-cell;
+        font-size: 10px;
+    }
+
+    .form_container form {
+        display: table;
+        padding: 20px 20px;
+        border-radius: 7px;
+        border: 1px solid blue;
+    }
+}
+
+@media (max-width: 300px) {
+   
+
+    .signup-form form div input {
+        font-size: 14px;
+        padding: 5px;
+        width: 220px;
+    }
+    .index_body h1 {
+        font-size: 30px;
+    }
+
+    .index_body p {
+        font-size: 14px;
+    }
+
+    .index_body p, .index_body h1 {
+        text-align: center;
+        max-width: 700px;
+        padding: 2%;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
